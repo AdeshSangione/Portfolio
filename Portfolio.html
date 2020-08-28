@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class = "has-nvabar-fixed-top">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adesh Sangione's Portfolio</title>
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- <script src="BulmaJS\BulmaJS-master\src\bulma.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <script charset="utf-8" src="https://platform.twitter.com/js/button.683df8cb64b87a8e4759b1fa17147ad1.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <section class="hero is-dark is-bold ">
+    <nav class="navbar is-fixed-top hero is-dark" role="navigation" aria-label="main navigation">
+
+      <div class="navbar-menu" id="navbarToggle">
+        <div class="navbar-brand">
+          <a class="navbar-item is-tab" href="#About">About Me</a>
+        </div>
+
+        <div class="navbar-brand">
+          <a class="navbar-item is-tab" href="#Projects">Projects</a>
+        </div>
+
+        <div class="navbar-brand">
+          <a class="navbar-item is-tab" href="#Contact">Contact Me</a>
+        </div>
+
+        <div class="navbar-end navbar-brand">
+          <a class="navbar-item is-tab" href="Resume_Adesh Sangione.pdf">Resume</a>
+        </div>
+      </div>
+
+      <a role="button" class="navbar-burger burger has-text-white burger-menu" aria-label="menu" aria-expanded="false" data-target="navbarToggle" onclick="myFunction()">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+
+    </nav>
+
+  </section>
+  <!-- Exit Navigation Bar -->
+
+
+  <!-- Intro Image -->
+  <section class="hero section is-small is-primary pb-0">
+    <div class="container is-fluid text-center pb-6 pt-6">
+      <h1 class="is-size-1 has-text-weight-bold">Adesh Sangione</h1>
+    </div>
+    <figure class="">
+      <img class="cover-img" src="Images\Me_Whitemud.jpg" alt="Adesh Sangione Photo">
+    </figure>
+  </section>
+  <!-- Exit Intro Image -->
+
+  <!-- About Me -->
+  <section class="section hero is-medium is-dark pt-5 pb-5" id="About">
+    <div class="container is-fluid text-center pt-0">
+      <h1 class="is-size-2 has-text-weight-bold">About Me</h1>
+    </div>
+
+    <div class="columns level">
+      <div class="column pt-6 text-center level-item">
+        <p class="is-size-4">
+          First off, thanks for checking out my website! It has been on my bucket list for a while.
+          Now, to get the boring stuff over with, I am a graduated mechanical engineer from the University of Alberta
+          and am excited to begin my Master of Engineering degree at the University of Toronto in Fall 2020.
+          I will be in the Mechanical and Industrial Engineering Department and will focus my studies towards
+          robotics and mechatronics (I am super stoked). <br>
+          <br>
+          At this point, you're probably wondering who I am as a person. I am a high school jock turned engineering nerd.
+          My hobbies and interests include:
+        </p>
+        <ul class="is-size-4 pt-5 text-center">
+          <div class="level mb-1 mt-1">
+            <li class = "level-item"><i class="fas fa-basketball-ball icon is-medium mr-4 has-text-primary level-item"></i>Basketball</li>
+          </div>
+          <div class="level mb-1 mt-1">
+            <li class = "level-item"><i class="fas fa-robot icon is-medium mr-4 has-text-primary level-item"></i>Robotics and AI</li>
+          </div>
+          <div class="level mb-1 mt-1">
+            <li class = "level-item"><i class="fas fa-dumbbell icon is-medium mr-4 has-text-primary level-item"></i>Working Out</li>
+          </div>
+          <div class="level mb-1 mt-1">
+            <li class = "level-item"><i class="fas fa-beer icon is-medium mr-4 has-text-primary level-item"></i>Hanging Out with Friends</li>
+          </div>
+        </ul>
+      </div>
+      <div class="column text-center pt-6 level-item">
+        <img class="headshot-img" src="Images\Me.jpg" alt="Adesh Sangione Headshot Photo">
+      </div>
+    </div>
+  </section>
+  <!-- Exit About Me -->
+
+  <!-- Projects -->
+  <section class="hero section is-small is-primary pt-5 pb-5" id="Projects">
+
+    <div class="container is-fluid text-center pb-6">
+      <h1 class="is-size-2 has-text-weight-bold text-center">Projects 2020</h1>
+    </div>
+
+    <div class="container is-medium is-light has-background-danger-light has-text-dark pt-5 pb-5 mb-6">
+      <div class="columns">
+        <div class="column image pt-6 text-center">
+          <a href="https://arvp.org/robots/arctos/">
+            <img class="" src="Images\Arctos_Website.png" alt="ARVP Robot Arctos">
+          </a>
+        </div>
+        <div class="column pt-6 text-center">
+          <h2 class="is-size-3 has-text-weight-semibold pb-4 px-6">
+            Autonomous Robotic Vehicle Project (ARVP)
+          </h2>
+          <p class="is-size-4 px-6">
+            The ARVP is an engineering student group at the University of Alberta where they conceptualize, design, and build a functioning robot using machine learning and computer vision architecture as well as mechanical and electrical systems. Over the last 2 years, I have been a part of this group within the mechanical team. In 2019, I was elected as the mechanical team lead, where I managed the design and budget of all mechanical systems used for the team's new robot, Arctos.
+          </p>
+          <div class="text-center container pt-6">
+            <button class="button is-danger is-medium has-text-weight-bold" href = "Resume_Adesh Sangione.pdf" onclick="pageRedirectARVP()">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container is-medium is-light has-background-warning-light has-text-dark pt-5 pb-5 mb-6">
+      <div class="columns level">
+        <div class="column pt-6 text-center level-item">
+          <h2 class="is-size-3 has-text-weight-semibold pb-4 px-6">LED Cube</h2>
+          <p class="is-size-4 px-6">
+            One day I was browsing on YouTube and came across a talented YouTuber who created an 8 x 8 x 8 LED Cube using 512 LEDs. They incorporated many different patterns and indicated what methods they used to minimize the amount of I/O pins required. After watching this, I promised myself that I would create one. I was able to build a 3 x 3 x 3 LED Cube using an Arduino Uno (couldn't go higher as I didn't have enough I/O pins) using multiplexing. Instead of requiring 27 I/O pins, I only needed 12 (9 LED cathodes and 3 LED anodes). The system is controlled using a button that can manipulate the cube into different patterns.
+          </p>
+          <div class="text-center container pt-6">
+            <button class="button is-warning is-medium has-text-weight-bold" href = "Resume_Adesh Sangione.pdf" onclick="pageRedirectLED()">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="column pt-6 text-center level-item">
+          <img class="small-img" src="Images\LED_Cube_Image.jpg" alt="LED Cube">
+        </div>
+      </div>
+    </div>
+
+    <div class="container is-medium is-light has-background-success-light has-text-dark pt-5 pb-5 mb-6">
+      <div class="columns level">
+        <div class="column image pt-6 pl-6 text-center level-item">
+          <img class="" src="Images\hc-05-serial_bb.png" alt="Video of LED">
+        </div>
+        <div class="column pt-6 text-center level-item">
+          <h2 class="is-size-3 has-text-weight-semibold pb-4 px-6">Bluetooth Controlled LED and Servo</h2>
+          <p class="is-size-4 px-6 pb-6">
+            This is a relatively new project that I decided to create that involves 2 main aspects. Firstly, the project required an app that had backend logic to control the components. Secondly, the project involved serial communication using the HC-05 bluetooth module and an Ardunio uno. The outcome of the project was an app that controlled an RGB LED to show different colors by using the app's user interface. Moreover, the app also controlled a servo motor, where the user could modify the rotor's angle. Because of this project, I feel more comfortable with creating an app that could control more complicated systems such as a robotic arm or remote controlled vehicle.
+          </p>
+          <button class="button is-success is-medium has-text-weight-bold" href = "Resume_Adesh Sangione.pdf" onclick="pageRedirectBLE()">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container is-medium is-light has-background-info-light has-text-dark pt-5 pb-5 mb-6">
+      <div class="columns level">
+        <div class="column pt-6 text-center level-item">
+          <h2 class="is-size-3 has-text-weight-semibold px-6">Machine Learning Model</h2>
+          <p class="is-size-4 px-6">Coming Soon!</p>
+        </div>
+        <div class="column image pt-6 text-center level-item">
+          <img src="https://www.einfochips.com/blog/wp-content/uploads/2018/11/how-to-develop-machine-learning-applications-for-business-featured.jpg" alt=""> </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Exit Projects -->
+
+  <!-- Contact Me -->
+  <section class="section hero is-medium is-dark pt-5 pb-5" id="Contact">
+
+    <div class="container is-fluid text-center pb-3 container-footer">
+      <h1 class="is-size-2 has-text-weight-bold text-center">Let's Talk!</h1>
+    </div>
+
+    <div class="is-fluid text-center pb-3 container-footer padding-large">
+      <h1 class="is-size-4 text-center">I am available for an 8 month internship starting Winter 2021.
+        Also, if you were just venturing and ended up here, I am always happy to connect!
+      </h1>
+    </div>
+
+    <ul class="text-center adesh-footer has-background-dark">
+      <li class="adesh-footer">
+        <a href="https://www.linkedin.com/in/adesh-sangione/"><i class="fab fa-linkedin icon is-medium has-text-primary"></i></a>
+      </li>
+      <li class="adesh-footer">
+        <a href="https://github.com/AdeshSan1"><i class="fab fa-github icon is-medium has-text-primary"></i></a>
+      </li>
+      <li class="adesh-footer">
+        <a href="mailto:adeshsangione@gmail.com"><i class="fas fa-envelope-square icon is-medium has-text-primary"></i></a>
+      </li>
+      <li class="adesh-footer">
+        <a href="Resume_Adesh Sangione.pdf"><i class="fas fa-file icon is-medium has-text-primary"></i></a>
+      </li>
+    </ul>
+
+  <div class="text-center is-dark pb-3 mb-3">
+    <p class="is-size-6">
+      <i class="far fa-copyright is-size-6"></i>
+      Copyright Adesh Sangione 2020
+    </p>
+  </div>
+
+  <div class="container text-center">
+    <a href="https://bulma.io">
+      <img class="" src="https://bulma.io/images/made-with-bulma--semiwhite.png" alt="Made with Bulma" width="128" height="24">
+    </a>
+  </div>
+
+  </section>
+  <!-- Exit Contact Me -->
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+/* Style Sheet for Adesh Sangione's portfolio */
+
+.cover-img{
+  height:50%;
+  width:72.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-footer{
+  padding-left: 20%;
+  padding-right:20%;
+}
+
+.adesh-footer{
+  display:inline;
+  margin: 5%;
+}
+
+.headshot-img{
+  height:auto;
+  width:60%;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.name-text{
+  font-size: 400%;
+  font-weight: bold;
+}
+
+.padding-large{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.small-img{
+  height: auto;
+  width: 75%;
+}
+
+.video-size{
+  width: 60%;
+  height: auto;
+}
+
+.border-gif-success{
+  border-style: solid;
+  border-width: thick;
+  border-color: hsl(141, 71%, 48%);
+}
+
+.border-gif-danger{
+  border-style: solid;
+  border-width: thick;
+  border-color: hsl(348, 100%, 61%);
+}
+
+.border-gif-warning{
+  border-style: solid;
+  border-width: thick;
+  border-color: hsl(48, 100%, 67%);
+}

@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>LED Cube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- <script src="BulmaJS\BulmaJS-master\src\bulma.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <script charset="utf-8" src="https://platform.twitter.com/js/button.683df8cb64b87a8e4759b1fa17147ad1.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <section class="section is-fluid is-fullheight hero is-warning">
+    <div class="content">
+      <button class="button is-warning is-light has-text-dark is-medium level" href="Portfolio.html" onclick="pageRedirectHome()">
+        <i class="fas fa-arrow-left pr-4 has-text-dark icon is-medium level-item"></i>
+        Back to Home
+      </button>
+
+    </div>
+
+    <div class="container is-fluid has-text-dark has-background-warning-light px-3">
+      <p class="is-size-2 has-text-weight-semibold pt-4 text-center">
+        3 X 3 X 3 LED Cube
+      </p>
+
+      <div class="columns level is-medium has-background-warning-light has-text-dark pt-6 text-center">
+        <div class="container is-fluid has-text-justified level-item column px-6">
+          <p class="is-size-4">
+            Like I said on the home page, one day I was browsing YouTube and found inspiration to build this awesome keepsake. The first time I watched it was probably 2 years ago. For some reason, however, I could not focus on this project. I don’t
+            think I developed my skills enough to undertake a project like this. Fast forward a couple years, where I gained experience in programming and robotics, I decided I was ready to give it my all.<br>
+          </p>
+        </div>
+
+        <div class="container is-fluid column level-item text-center">
+          <img class="small-img" src="Images\circuit.png" alt="Circuit Diagram">
+        </div>
+
+      </div>
+
+      <!-- Second row of columns -->
+
+      <div class="columns level is-medium has-background-warning-light has-text-dark pt-6">
+
+        <div class="level-item is-fluid column text-center">
+          <video class="video-size border-gif-warning" controls loop muted>
+            <source src="Images\led-cube-compressed_RANlKH7Y_F3XG.mp4" type="video/mp4">
+            Your browser may not support MP4 video files.
+          </video>
+        </div>
+
+        <div class="container is-fluid column has-text-justified level-item px-6">
+
+          <p class="is-size-4">
+            I was able to create a circuit using a multiplexing technique to lower the number of Input and Outpin (I/O) pins required to power several LEDs. The cube used 27 LEDs (9 red, 9 blue, and 9 white) with 9 (3 X 3) LEDs per layer. Each layer
+            was connected to a transistor, which emitted to the ground when energized with 5V. Furthermore, all vertical LEDs (3 in a column) were connected using a common cathode. Somehow, I managed to get this right on my first try with the circuit
+            diagram shown.<br>
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="content is-medium has-background-warning-light has-text-dark pt-3 pb-6 px-6">
+        <p class="is-size-3">Project Takeaways</p>
+        <ul class="is-size-4">
+          <li>Focus, focus, focus! Procrastination is a motivation killer</li>
+          <li>Resourcefulness goes a long way to not drag out projects unnecessarily</li>
+          <li>Soldering is super fun and requires a very steady hand</li>
+          <li>Being prepared will probably lead to a high-quality result most of the time</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+</body>
+
+</html>
