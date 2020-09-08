@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>BLE Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- <script src="BulmaJS\BulmaJS-master\src\bulma.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <script charset="utf-8" src="https://platform.twitter.com/js/button.683df8cb64b87a8e4759b1fa17147ad1.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <section class="section is-fluid is-fullheight hero is-success">
+    <div class="content">
+      <button class="button is-success is-light has-text-dark is-medium level" href="Portfolio.html" onclick="pageRedirectHome()">
+        <i class="fas fa-arrow-left pr-4 has-text-dark icon is-medium level-item"></i>
+        Back to Home
+      </button>
+
+    </div>
+
+    <div class="container is-fluid has-text-dark has-background-success-light px-5">
+      <p class="is-size-2-desktop is-size-4-mobile is-size-4-touch has-text-weight-semibold pt-4 text-center">
+        Bluetooth Controlled Servo and RGB LED
+      </p>
+
+      <div class="columns level is-medium has-background-success-light has-text-dark pt-6 text-center">
+        <div class="container is-fluid has-text-justified level-item column px-5">
+          <p class="is-size-4-desktop is-size-6-mobile">
+            This project was completed most recently because I felt like I didn’t understand the fundamentals of Bluetooth controlled systems at all. In creating this Bluetooth system, I had the opportunity to create an app on my Android device that transmitted data to an HC-05 Bluetooth module, which then sent the data to an Arduino Uno. Pretty much, the plan was to use a Bluetooth module and an app to control the colour scheme of an RGB LED along with a servo motor. <br><br>
+            You're probably wondering what's the point, right? Well, the knowledge required to develop this project can be easily applied to Android-controlled robotic arms or vehicles. These projects are on my to-do list!
+          </p>
+        </div>
+
+        <div class="container is-fluid column level-item text-center">
+          <img class="border-gif-success" src="Images\Screen-Capture-of-BLE-Project.gif" alt="Gif of App">
+        </div>
+
+      </div>
+
+      <!-- Second row of columns -->
+
+      <div class="columns level is-medium has-background-success-light has-text-dark pt-6">
+
+        <div class="level-item is-fluid column text-center">
+          <video class="border-gif-success video-size" controls muted>
+            <source src="Images\BLE_Project_Compressed.mp4" type="video/mp4">
+            Your browser may not support MP4 video files.
+          </video>
+        </div>
+
+        <div class="container is-fluid column has-text-justified level-item px-5">
+
+          <p class="is-size-4-desktop is-size-6-mobile">
+            The app was developed using the MIT APP Inventor platform, which was super user-friendly. In the building environment, I used code blocks to develop the app’s backend. Moreover, the front end was also designed through the platform’s UI. <br><br>
+            To summarize the project, the LED and servo were connected to PWM pins of the Arduino Uno. By doing this, I could control the duty cycle or bits transferred by each pin. The app was the main interface that controlled how many bits would be used in each device. For example, by pressing the higher or lower buttons on the app, I was actually changing the duty cycle of the device to set the servo’s rotor angle or the RGB LED’s colour.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="content is-medium has-background-success-light has-text-dark pt-3 pb-6 px-5">
+        <p class="is-size-3-desktop is-size-4-mobile has-text-weight-semibold">Project Takeaways</p>
+        <ul class="is-size-4-desktop is-size-6-mobile">
+          <li>Do thorough research before undertaking projects you have no prior knowledge about!</li>
+          <li>Debug...and then debug some more!</li>
+          <li>Clean up your code after getting it to work the first time!</li>
+          <li>Continue to try projects that are outside of my comfort zone!</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
